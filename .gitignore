@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.joblib
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Artifacts & data
+artifacts/*
+
+# Environment files
+.env
+*.env
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Cache
+*.cache/
