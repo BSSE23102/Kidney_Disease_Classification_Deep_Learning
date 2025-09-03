@@ -16,3 +16,15 @@
 [2025-09-03 17:01:19,968: INFO: common: created directory at: artifacts/data_ingestion]
 [2025-09-03 17:01:19,974: INFO: 3639088304: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2025-09-03 17:02:36,929: INFO: 3639088304: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-03 18:14:30,176: INFO: main: >>>>> stage 1 started <<<<<]
+[2025-09-03 18:14:30,183: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-03 18:14:30,184: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}]
+[2025-09-03 18:14:30,195: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-03 18:14:30,197: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-03 18:14:30,201: INFO: common: created directory at: artifacts]
+[2025-09-03 18:14:30,204: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-03 18:14:30,208: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-03 18:15:50,916: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-03 18:15:52,747: INFO: main: >>>>> stage 1 completed <<<<<
+
+x==========x]
