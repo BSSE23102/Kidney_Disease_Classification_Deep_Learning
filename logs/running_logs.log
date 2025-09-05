@@ -28,3 +28,71 @@
 [2025-09-03 18:15:52,747: INFO: main: >>>>> stage 1 completed <<<<<
 
 x==========x]
+[2025-09-05 17:55:33,402: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 17:55:33,421: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 17:55:33,450: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 17:55:33,453: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 17:58:32,187: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 17:58:32,189: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 17:58:32,195: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 17:58:32,197: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 17:58:32,204: INFO: common: created directory at: artifacts]
+[2025-09-05 17:58:32,208: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-05 18:02:08,006: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 18:02:08,009: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 18:02:08,016: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 18:02:08,018: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 18:02:08,021: INFO: common: created directory at: artifacts]
+[2025-09-05 18:02:08,024: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-05 18:03:15,282: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-09-05 18:03:16,065: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-09-05 18:31:39,092: INFO: main: >>>>> stage 1 started <<<<<]
+[2025-09-05 18:31:39,097: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 18:31:39,097: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 18:31:39,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 18:31:39,103: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 18:31:39,104: INFO: common: created directory at: artifacts]
+[2025-09-05 18:31:39,106: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-05 18:31:39,106: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 18:32:57,570: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 18:32:59,852: INFO: main: >>>>> stage 1 completed <<<<<
+
+x==========x]
+[2025-09-05 18:32:59,853: INFO: main: >>>>> Stage 2: Prepare Base Model started <<<<<]
+[2025-09-05 18:32:59,859: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 18:32:59,860: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 18:32:59,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 18:32:59,865: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 18:32:59,866: INFO: common: created directory at: artifacts]
+[2025-09-05 18:32:59,866: ERROR: main: 'PrepareBaseModelPipeline' object has no attribute 'config']
+Traceback (most recent call last):
+  File "C:\Users\l\OneDrive\Documents\Ai Engineering\Kidney_Disease_Classification_Deep_Learning\main.py", line 25, in <module>
+    obj.main()
+  File "C:\Users\l\OneDrive\Documents\Ai Engineering\Kidney_Disease_Classification_Deep_Learning\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model_config = self.config.get_prepare_base_model_config()
+                                ^^^^^^^^^^^
+AttributeError: 'PrepareBaseModelPipeline' object has no attribute 'config'
+[2025-09-05 18:34:46,052: INFO: main: >>>>> stage 1 started <<<<<]
+[2025-09-05 18:34:46,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 18:34:46,057: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 18:34:46,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 18:34:46,062: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 18:34:46,063: INFO: common: created directory at: artifacts]
+[2025-09-05 18:34:46,064: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-05 18:34:46,065: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 18:36:02,528: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 18:36:03,896: INFO: main: >>>>> stage 1 completed <<<<<
+
+x==========x]
+[2025-09-05 18:36:03,897: INFO: main: >>>>> Stage 2: Prepare Base Model started <<<<<]
+[2025-09-05 18:36:03,901: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 18:36:03,902: INFO: common: YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/updated_base_model.h5'}}]
+[2025-09-05 18:36:03,905: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 18:36:03,905: INFO: common: YAML content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}]
+[2025-09-05 18:36:03,906: INFO: common: created directory at: artifacts]
+[2025-09-05 18:36:03,907: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-05 18:36:04,801: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-09-05 18:36:05,109: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-09-05 18:36:05,353: INFO: main: >>>>> Stage 2: Prepare Base Model completed <<<<<
+
+x==========x]
